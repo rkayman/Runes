@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "Runes", targets: ["Runes"])
   ],
   dependencies: [
-    .package(url: "git@github.com:typelift/SwiftCheck.git", from: "0.12.0")
+    .package(url: "https://github.com/typelift/SwiftCheck.git", from: "0.12.0")
   ],
   targets: [
     .target(name: "Runes"),
