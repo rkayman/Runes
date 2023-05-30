@@ -11,6 +11,6 @@
 
   - returns: A value of type `Result<U, E>`
 */
-public func <^> <T, U, E>(f: (T) -> U, a: Result<T, E>) -> Result<U, E> {
+public func <%> <T, U, E>(f: (T) -> U, a: Result<T, E>) -> Result<U, E> {
   return a.map(f)
 }

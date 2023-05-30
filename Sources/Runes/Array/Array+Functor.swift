@@ -9,6 +9,6 @@
 
   - returns: A value of type `[U]`
 */
-public func <^> <T, U>(f: (T) -> U, a: [T]) -> [U] {
+public func <%> <T, U>(f: (T) -> U, a: [T]) -> [U] {
   return a.map(f)
 }

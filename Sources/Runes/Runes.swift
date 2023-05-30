@@ -34,7 +34,7 @@ precedencegroup RunesApplicativeSequencePrecedence {
   Expected function type: `(a -> b) -> f a -> f b`
   Haskell `infixl 4`
 */
-infix operator <^> : RunesApplicativePrecedence
+infix operator <%> : RunesApplicativePrecedence
 
 /**
   apply a function with context to a value with context
